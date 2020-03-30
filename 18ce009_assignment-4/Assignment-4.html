@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+    <title> FEEDBACK FORM </title>
+</head>
+<body bgcolor="#E6E6FA">
+<body align="center">
+    <div class ="form_container">
+        <fieldset><legend><b><h2>Registration Details..</h2></b></legend>
+        <p> <em>Please provide your feedback:</em> </p>
+        <form role="form" method="post" id="Form">
+            <div class="form-name">
+                 <label for="name"> <b> Name: </b> </label>
+                 <input type="text" id="name" name="name" required><br>
+            </div>
+            <br>
+            <div class="form-rollno">
+                <label for="Rollno"> <b> Roll no:<b></label>
+                <input type="text" id="rollno" name="rollno" required><br>
+            </div>
+            <br>
+            <div class="form-email">
+                <label for="email"><b>Email:<b></label>
+                <input type="email" id="email" name="email" required><br>
+            </div>
+            <br>
+            <div class="subject">
+                <label><b>Subject:<b></label>
+                <input type="text" id="subject" name="subject" required><br>
+            </div>
+            <br>
+            <tr align="center"  bgcolor="#80d4ff">
+                            <td>
+                                <label for="dob">Date Of Birth:</label>
+                            </td>
+                            <td>
+                                <input type="date" name="date" style="width:10%" id="dob">
+                            </td>
+                        </tr> 
+            
+            <br>
+            <tr align="center">
+                <br>
+                            <td>
+                                <label for="city">City:</label>
+                            </td>
+            <td>
+                                <select name="city" id="city" style="width:10%" required>
+                                    <option value="Vadodara">Vadodara</option>
+                                    <option value="Delhi">Delhi</option>
+                                    <option value="Bhopal">Bhopal</option>
+                                    <option value="Mumbai">Mumbai</option>
+                                    <option value="Bangalore">Bangalore</option>
+                                    <option value="Hyderabad">Hyderabad</option>
+                                    <option value="Kanpur">Kanpur</option>
+                                    <option value="Nagpur">Nagpur</option>
+                                    <option value="Ahmedabad">Ahmedabad</option>
+                                    <option value="Junagadh">Junagadh</option>
+                                    <option value="Pune">Pune</option>
+                                    <option value="Surat">Surat</option>
+
+                                </select>
+                            </td>
+            <br><br>
+
+        <div class="form-experience">
+                <label><strong>Rate your faculty experience:</strong><br>            
+                    <input type="radio" id="experience" name="experience" value="excellent">
+                    Excellent
+                    <input type="radio" id="experience" name="experience" value="Average">
+                    Average
+                    <input type="radio" id="experience" name="experience" value="Bad">
+                    Bad
+                </label>
+            </div>
+            <br>
+            <div class="suggestion">
+                <label><em>Suggestion(if any):</em>
+                    <br>
+                    <textarea name="suggestion" maxlength="1000" rows="7"></textarea>
+                </label>
+            </div>
+            <div class="submitandreset">
+                <br>
+                <input type="submit" value="Submit">
+
+                <input type="reset">
+            </div>
+
+                
+        </form>
+    </div>
+
+</body>
+</html>
